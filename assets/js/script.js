@@ -13,9 +13,13 @@ document.addEventListener("DOMContentLoaded", function() {
         })
     }
 })
-
+/**
+ * The maian game "loop", called when the script is first loaded
+ * and dafter the users answer has been processed
+ */
 function runGame() {
-
+    let num1 = Math.floor(Math.randoom() * 25) + 1;
+    let num2 = Math.floor(Math.randoom() * 25) + 1;
 }
 
 function checkAnswer() {
